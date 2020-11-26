@@ -1,0 +1,20 @@
+.lead__title {
+    font-size: 96px;
+    line-height: 100px;
+    font-weight: 900;
+    width: 720px;
+    height: 200px;
+    text-align: center;
+    margin: 0;
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .lead__title {
+        font-size: 40px;
+        line-height: 44px;
+        width: 288px;
+        height: 88px;
+    }
+}
