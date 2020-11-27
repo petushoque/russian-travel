@@ -1,0 +1,22 @@
+.photo-grid {
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 92px 48px 0;
+}
+
+/*стили для экранов от 768 до 1023 пикселей*/
+
+@media screen and (max-width: 1023px) {
+    .photo-grid {
+        padding: 88px 24px 0;
+    }
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .photo-grid {
+        padding: 64px 16px 0;
+    }
+}

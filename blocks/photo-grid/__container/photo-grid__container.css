@@ -1,0 +1,42 @@
+.photo-grid__container {
+    display: grid;
+    box-sizing: border-box;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    height: 671px;
+    gap: 16px;
+}
+
+/*стили для экранов от 1024 до 1279 пикселей*/
+
+@media screen and (max-width: 1279px) {
+    .photo-grid__container {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        height: 942px;
+        gap: 14px;
+    }
+}
+
+/*стили для экранов от 768 до 1023 пикселей*/
+
+@media screen and (max-width: 1023px) {
+    .photo-grid__container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        height: 1664px;
+        gap: 16px;
+    }
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .photo-grid__container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(12, 1fr);
+        height: 2724px;
+        gap: 12px;
+    }
+}
