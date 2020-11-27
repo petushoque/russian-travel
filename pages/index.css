@@ -19,3 +19,6 @@
 @import url(../blocks/lead/__caption/lead__caption.css);
 
 @import url(../blocks/info/info.css); /*стили info*/
+@import url(../blocks/info/__title/info__title.css);
+@import url(../blocks/info/__subtitle/info__subtitle.css);
+@import url(../blocks/info/__list/info__list.css);

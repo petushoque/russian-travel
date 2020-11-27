@@ -1,3 +1,33 @@
 .info {
-    
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 92px 0 0 148px;
+}
+
+/*стили для экранов от 1024 до 1279 пикселей*/
+
+@media screen and (max-width: 1279px) {
+    .info {
+        box-sizing: border-box;
+        padding: 92px 0 0 48px;
+    }
+}
+
+/*стили для экранов от 768 до 1023 пикселей*/
+
+@media screen and (max-width: 1023px) {
+    .info {
+        box-sizing: border-box;
+        padding: 88px 0 0 24px;
+    }
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .info {
+        box-sizing: border-box;
+        padding: 64px 0 0 16px;
+    }
 }

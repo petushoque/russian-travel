@@ -1,0 +1,25 @@
+.info__subtitle {
+    width: 690px;
+    height: 208px;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 40px 0 0;
+}
+
+/*стили для экранов от 768 до 1023 пикселей*/
+
+@media screen and (max-width: 1023px) {
+    .info__subtitle {
+        width: 720px;
+        height: 208px;
+    }
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .info__subtitle {
+        width: 288px;
+        height: 520px;        
+    }
+}
