@@ -1,0 +1,11 @@
+.places__paragraph {
+    width: 100%;
+    font-size: 18px;
+    line-height: 29px;
+    padding: 0px;
+    margin: 0 0 26px;
+}
+
+.places__paragraph:last-child {
+    margin: 0;
+}

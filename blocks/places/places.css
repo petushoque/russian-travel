@@ -1,0 +1,10 @@
+.places {
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 92px 148px 0 148px;
+}
