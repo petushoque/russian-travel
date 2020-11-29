@@ -9,3 +9,21 @@
 .places__paragraph:last-child {
     margin: 0;
 }
+
+/*стили для экранов от 768 до 1023 пикселей*/
+
+@media screen and (max-width: 1023px) {
+    .places__paragraph {
+        margin: 0 0 25px;
+    }
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .places__paragraph {
+        width: 100%;
+        row-gap: 28px;
+        margin: 0 0 25px;
+    }
+}

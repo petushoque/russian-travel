@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
-
-@import url(../blocks/font-inter/font-inter.css); /*css фаил с подключением шрифта*/
+/*@import url(../blocks/font-inter/font-inter.css); css фаил с подключением шрифта, ниже исправлен по БЭМ*/
+@import url(../vendor/inter-font/inter.css);
 
 @import url(../blocks/page/page.css); /*основные стили для всей страницы*/
 

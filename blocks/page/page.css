@@ -6,4 +6,6 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    -webkit-font-smoothing: antialiased; 
+    -moz-osx-font-smoothing: grayscale; 
 }

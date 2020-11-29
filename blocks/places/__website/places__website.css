@@ -2,6 +2,22 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    max-width: 456px;
+    width: 456px;
     align-self: flex-end;
+}
+
+/*стили для экранов от 768 до 1023 пикселей*/
+
+@media screen and (max-width: 1023px) {
+    .places__website {
+        width: 352px;
+    }
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .places__website {
+        display: none;
+    }
 }

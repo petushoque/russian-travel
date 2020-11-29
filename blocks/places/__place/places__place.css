@@ -10,3 +10,32 @@
 .places__place:last-child {
     margin: 0;
 }
+
+/*стили для экранов от 1024 до 1279 пикселей*/
+
+@media screen and (max-width: 1279px) {
+    .places__place {
+        width: 100%;
+        column-gap: 32px;
+    }
+}
+
+/*стили для экранов от 768 до 1023 пикселей*/
+
+@media screen and (max-width: 1023px) {
+    .places__place {
+        width: 100%;
+        column-gap: 28px;
+        margin: 0 0 73px;
+    }
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .places__place {
+        width: 100%;
+        row-gap: 28px;
+        margin: 0 0 50px;
+    }
+}
