@@ -1,0 +1,18 @@
+.cover__title {
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    width: 560px;
+    margin: 0;
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .cover__title {
+        font-size: 32px;
+        line-height: 35px;
+        width: 288px;
+    }
+}

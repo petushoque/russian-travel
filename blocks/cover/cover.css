@@ -1,0 +1,30 @@
+.cover {
+    width: 100%;
+    max-width: 1280px;
+    box-sizing: border-box;
+    padding: 92px 48px 0;
+}
+
+/*стили для экранов от 1024 до 1279 пикселей*/
+
+@media screen and (max-width: 1279px) {
+    .cover {
+        padding: 92px 0 0;
+    }
+}
+
+/*стили для экранов от 768 до 1023 пикселей*/
+
+@media screen and (max-width: 1023px) {
+    .cover {
+        padding: 90px 0 0;
+    }
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .cover {
+        padding: 66px 0 0;
+    }
+}
