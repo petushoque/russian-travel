@@ -1,0 +1,17 @@
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 18px;
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .footer__links {
+        flex-direction: column;
+        gap: 32px;
+    }
+}
