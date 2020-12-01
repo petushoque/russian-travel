@@ -1,4 +1,34 @@
 .header {
     width: 100%;
     max-width: 1280px;
+    box-sizing: border-box;
+    padding: 28px 48px 56px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*стили для экранов от 1024 до 1279 пикселей*/
+
+@media screen and (max-width: 1279px) {
+    .header {
+        padding: 28px 48px 48px;
+    }
+}
+
+/*стили для экранов от 768 до 1023 пикселей*/
+
+@media screen and (max-width: 1023px) {
+    .header {
+        padding: 28px 24px 48px;
+    }
+}
+
+/*стили для экранов до 767 пикселей*/
+
+@media screen and (max-width: 767px) {
+    .header {
+        padding: 16px 16px 48px;
+    }
 }

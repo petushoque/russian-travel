@@ -1,11 +1,12 @@
 @import url(../vendor/normalize.css);
-/*@import url(../blocks/font-inter/font-inter.css); css фаил с подключением шрифта, ниже исправлен по БЭМ*/
+
 @import url(../vendor/inter-font/inter.css);
 
 @import url(../blocks/page/page.css); /*основные стили для всей страницы*/
 
+@import url(../blocks/main/main.css); /*стили для основной части страницы, секция main*/
+
 @import url(../blocks/header/header.css); /*стили header`а*/
-@import url(../blocks/header/__container/header__container.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
@@ -14,7 +15,6 @@
 @import url(../blocks/lead/lead.css); /*стили lead`а*/
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
-@import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__polka/lead__polka.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 
@@ -22,6 +22,7 @@
 @import url(../blocks/info/__title/info__title.css);
 @import url(../blocks/info/__subtitle/info__subtitle.css);
 @import url(../blocks/info/__list/info__list.css);
+@import url(../blocks/info/__digits/info__digits.css);
 
 @import url(../blocks/photo-grid/photo-grid.css); /*стили photo-grid*/
 @import url(../blocks/photo-grid/__image/photo-grid__image.css);
@@ -38,8 +39,6 @@
 @import url(../blocks/places/__paragraph/places__paragraph.css);
 
 @import url(../blocks/cover/cover.css); /*стили cover`а*/
-@import url(../blocks/cover/__background/cover__background.css);
-@import url(../blocks/cover/__text/cover__text.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__link/cover__link.css);

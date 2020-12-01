@@ -1,7 +1,6 @@
 .info__list {
     list-style: none;
-    width: 690px;
-    height: 90px;
+    max-width: 690px;
     font-weight: bold;
     font-size: 12px;
     line-height: 18px;
@@ -13,8 +12,7 @@
 
 @media screen and (max-width: 1023px) {
     .info__list {
-        width: 720px;
-        height: 90px;
+        max-width: 720px;
     }
 }
 
@@ -22,8 +20,7 @@
 
 @media screen and (max-width: 767px) {
     .info__list {
-        width: 288px;
-        height: 90px;
+        max-width: 288px;
         margin: 34px 0 0;  
     }
 }

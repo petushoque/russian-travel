@@ -4,6 +4,8 @@
     line-height: 22px;
     text-decoration-line: underline;
     color: #FFFFFF;
+    padding: 0;
+    margin: 0;
 }
 
 .places__link:hover {

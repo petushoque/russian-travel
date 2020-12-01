@@ -9,7 +9,6 @@
 
 @media screen and (max-width: 1279px) {
     .info {
-        box-sizing: border-box;
         padding: 92px 0 0 48px;
     }
 }
@@ -18,7 +17,6 @@
 
 @media screen and (max-width: 1023px) {
     .info {
-        box-sizing: border-box;
         padding: 88px 0 0 24px;
     }
 }
@@ -27,7 +25,6 @@
 
 @media screen and (max-width: 767px) {
     .info {
-        box-sizing: border-box;
         padding: 64px 0 0 16px;
     }
 }

@@ -1,10 +1,11 @@
 .places__place {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
+    /*width: 100%;*/
+    display: grid;
+    grid-template-columns: 460px 1fr;
+    grid-template-rows: min-content min-content;
     column-gap: 40px;
     row-gap: 48px;
-    margin: 0 0 80px;
+    margin-bottom: 80px;
 }
 
 .places__place:last-child {
@@ -15,7 +16,7 @@
 
 @media screen and (max-width: 1279px) {
     .places__place {
-        width: 100%;
+        grid-template-columns: 440px 1fr;
         column-gap: 32px;
     }
 }
@@ -24,9 +25,9 @@
 
 @media screen and (max-width: 1023px) {
     .places__place {
-        width: 100%;
+        grid-template-columns: 340px 1fr;
         column-gap: 28px;
-        margin: 0 0 73px;
+        margin-bottom: 73px;
     }
 }
 
@@ -34,8 +35,9 @@
 
 @media screen and (max-width: 767px) {
     .places__place {
-        width: 100%;
-        row-gap: 28px;
-        margin: 0 0 50px;
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content;
+        row-gap: 32px;
+        margin-bottom: 49px;
     }
 }

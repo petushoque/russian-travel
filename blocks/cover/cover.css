@@ -2,14 +2,37 @@
     width: 100%;
     max-width: 1280px;
     box-sizing: border-box;
-    padding: 92px 48px 0;
+    margin: 92px 48px 0;
+    width: calc(100% - 48px - 48px);
+    height: 740px;
+    background-image: url(../../images/cover-trains.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.cover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #2A2C2F;
+    opacity: 0.3;
+}
+
+.cover:hover::before {
+    opacity: 0.8;
 }
 
 /*стили для экранов от 1024 до 1279 пикселей*/
 
 @media screen and (max-width: 1279px) {
     .cover {
-        padding: 92px 0 0;
+        margin: 92px 0 0;
+        height: 640px;
+        width: 100%;
     }
 }
 
@@ -17,7 +40,8 @@
 
 @media screen and (max-width: 1023px) {
     .cover {
-        padding: 90px 0 0;
+        margin: 90px 0 0;
+        height: 480px;
     }
 }
 
@@ -25,6 +49,7 @@
 
 @media screen and (max-width: 767px) {
     .cover {
-        padding: 66px 0 0;
+        margin: 66px 0 0;
+        height: 200px;
     }
 }

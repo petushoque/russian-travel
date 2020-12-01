@@ -28,6 +28,5 @@
     .places__image {
         width: 320px;
         height: 320px;
-        transform: translateX(-16px);
     }
 }

@@ -1,6 +1,5 @@
 .info__subtitle {
-    width: 690px;
-    height: 208px;
+    max-width: 690px;
     font-size: 16px;
     line-height: 26px;
     margin: 40px 0 0;
@@ -10,8 +9,7 @@
 
 @media screen and (max-width: 1023px) {
     .info__subtitle {
-        width: 720px;
-        height: 208px;
+        max-width: 720px;
     }
 }
 
@@ -19,7 +17,6 @@
 
 @media screen and (max-width: 767px) {
     .info__subtitle {
-        width: 288px;
-        height: 520px;        
+        max-width: 288px;     
     }
 }

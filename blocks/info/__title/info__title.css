@@ -1,6 +1,5 @@
 .info__title {
-    width: 690px;
-    height: 58px;
+    max-width: 690px;
     font-weight: 900;
     font-size: 54px;
     line-height: 58px;
@@ -11,7 +10,7 @@
 
 @media screen and (max-width: 1023px) {
     .info__title {
-        width: 720px;
+        max-width: 720px;
     }
 }
 
@@ -19,7 +18,7 @@
 
 @media screen and (max-width: 767px) {
     .info__title {
-        width: 288px;
+        max-width: 288px;
         height: 70px;
         font-size: 32px;
         line-height: 35px;

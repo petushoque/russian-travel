@@ -2,8 +2,7 @@
     font-size: 30px;
     line-height: 36px;
     font-weight: 400;
-    width: 640px;
-    height: 72px;
+    max-width: 640px;
     text-align: center;
     margin: 32px 0 0;
 }
@@ -14,8 +13,7 @@
     .lead__subtitle {
         font-size: 16px;
         line-height: 20px;
-        width: 288px;
-        height: 40px;
+        max-width: 288px;
         margin: 16px 0 0;
     }
 }

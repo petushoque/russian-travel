@@ -1,8 +1,7 @@
 .places__website {
-    list-style: none;
     margin: 0;
     padding: 0;
-    width: 456px;
+    max-width: 456px;
     align-self: flex-end;
 }
 
@@ -10,7 +9,7 @@
 
 @media screen and (max-width: 1023px) {
     .places__website {
-        width: 352px;
+        max-width: 352px;
     }
 }
 
