@@ -5,10 +5,8 @@
     font-size: 24px;
     line-height: 28px;
     font-weight: 400;
-}
-
-.header__lang-link:first-child {
-    margin-right: 18px;
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and (max-width: 767px) {
